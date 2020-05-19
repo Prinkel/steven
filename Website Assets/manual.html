@@ -1,0 +1,98 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<!-- Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99020024-1">
+	</script>
+	<script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag(){dataLayer.push(arguments);}
+	 gtag('js', new Date());
+
+	 gtag('config', 'UA-99020024-1');
+	</script><!-- End Google Analytics -->
+
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	 coll[i].addEventListener("click", function() {
+	   this.classList.toggle("active");
+	   var content = this.nextElementSibling;
+	   if (content.style.display === "block") {
+	     content.style.display = "none";
+	   } else {
+	     content.style.display = "block";
+	   }
+	 });
+	}
+	</script>
+	<script>
+	   function myFunction() {
+	 var x = document.getElementById("uitleg");
+	 if (x.style.display === "none") 
+     {
+	   x.style.display = "block";
+	 } else {
+	   x.style.display = "none";
+	 }
+	}
+	</script>
+	<title>Car Manual</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="index.html"></a>
+		<h1><a href="index.html">CAR MANUAL</a></h1><button onclick="myFunction()">?</button>
+			<div id="uitleg">
+				<p>is a car manual especially created for homeless people living in their car of RV in the Los Angeles County.</p><br>
+				<div id="specs">
+					<p>444 x 210 (OPEN)<br>
+					297 x 210 (CLOSED)<br>
+					SOFTCOVER<br>
+					250 PAGES</p>
+				</div>
+			</div>
+	</header>
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	 coll[i].addEventListener("click", function() {
+	   this.classList.toggle("active");
+	   var content = this.nextElementSibling;
+	   if (content.style.maxHeight){
+	     content.style.maxHeight = null;
+	   } else {
+	     content.style.maxHeight = content.scrollHeight + "px";
+	   } 
+	 });
+	}
+	</script>
+	<div class="projectborder">
+
+		<div id="afbeeldingen">
+			<section class="contentrectangle">
+				<img src="images/car1.jpg"> <img src="images/car2.jpg"> <img src="images/car3.jpg"><br>
+			</section>
+		</div>
+		<footer>
+			<div class="mobilefooter">
+				<nav>
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="https://www.instagram.com/steven_deprez/?hl=nl">IG</a></li>
+						<li><a href="mailto:steven_deprez@hotmail.com">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

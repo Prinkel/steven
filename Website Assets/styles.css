@@ -1,0 +1,388 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body{
+    background-color:black;
+    font-family: 'helvetica-light', sans-serif;
+}
+ .abouttext p{
+    font-size: 20px;
+    position:relative;
+     text-align: left justify;
+     color: black;
+     padding: 2%;
+     margin-right:40%; 
+                }
+                
+button{
+    font-size:  100px;
+    background: none;
+}
+
+contentimagechange{
+    width: 100%;
+}
+    .slideshow{
+    margin: 0,auto;
+    width: 30%;
+}
+.projectsection{
+    position: relative;
+    z-index: 9999;
+}
+
+
+.contentmainpage{
+    margin-top: 80vh;
+    margin-bottom: 2%;
+    font-size:35px;
+    background: black;
+    padding-bottom: 100px;
+    border-radius:40px;
+}
+
+#projecttitle p{
+    font-size: 70px;
+    text-align:end;
+    color: white;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid .project {
+    width: 32%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.project img {
+    width: 100%;
+        border-radius:40px;
+}
+
+.project-text p {
+font-family: 'manrope';
+padding-top: 10%;
+padding-left: 8%;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background:#4287f5;
+box-sizing: border-box;
+color: black; 
+transform: rotate(-5deg);
+border-radius: 40px ;
+}
+h3{
+position:relative;
+float: left;
+z-index: 100000;
+width: 100%;
+font-size: 30px;
+margin-left: 2.4%;
+padding-top: 5px;
+color: white;
+}
+
+.project-text:hover {
+cursor: pointer;
+transition: all 0.1s ease;
+opacity: 0;
+background: none;
+}
+
+header{
+    width:100%;
+    position: fixed;
+    top: 0px;
+    background:#CCCCCC;
+    z-index: 99999999;
+    box-sizing: border-box;
+    color: black;
+    font-size:40px;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius: 0px 0px 7px 7px;
+}
+header h1{
+    float:left;
+    color: black;
+}
+
+#clockbox{
+float: right;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a:hover{
+    color:white;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+.footer p{
+    text-align: center;
+bottom: 0px;
+    clear: left;
+}
+.mobilefooter{
+    width:100%;
+    position:fixed;
+    bottom: 0px;
+    background: #CCCCCC;
+    color: black;
+    font-size:40px;
+    text-align: center;
+    z-index: 99999;
+    border-radius: 7px 7px 0px 0px;
+    }
+    footer nav ul li {
+        display: inline-block;
+        padding: 0em;
+          padding-left: 5%;
+        padding-right:5%;
+    }
+    footer nav ul li a:hover{
+    color:blue;
+}
+
+
+/* Project Sub PAGE */
+ button{
+                font-size: 40px;
+                float: right;
+                display: inline-block;
+                border: 0;
+font-family: 'helvetica-light', sans-serif;
+                padding: 0;
+                }
+
+#tekst {
+margin-right: 63%;
+margin-left:13px;
+font-size: 27px;
+color:white;
+position: fixed;
+    
+}
+h2{
+    position: fixed;
+    color: blue;
+    stroke: 50px;
+    font-size: 50px;
+}
+
+.tekst h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.contentrectangle img{
+    width:95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#profiel {
+    width: 35%;
+}
+.projectborder{
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+
+.collapsible{
+    display: none;
+    font-size: 0px;
+}
+.content{
+    display: none;
+}
+
+    .abouttext p{
+float: left;
+font-size: 40px;
+ margin-top:40px;
+margin-bottom: 60px;
+margin-right:30%;
+color:white;
+
+}
+.aboutimg img{
+    position: fixed;
+margin-left: 65%;
+    margin-top: 10%;
+    width: 30%;
+    z-index: 9999999999999999;
+    transform: rotate(-5deg);
+
+}
+
+#specs{
+    font-size: 15px;
+}
+
+#uitleg {
+    float: left;
+    font-size:45px;
+    z-index: 999999;
+    padding-right: 5%;
+    display: none;
+            }
+
+
+            /* Responsive Styles */
+
+            @media screen and (max-width:700px){
+            header{
+                margin: 0px;
+                text-align: left;
+                font-size: 37px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+            }
+            button{
+                font-size: 37px;
+                text-align: right;
+                display: inline-block;
+                border:0;
+                font-family: 'helvetica-light', sans-serif;
+                }
+                
+            .slideshow{
+                width: 95%;
+             }
+
+            .contentmainpage{
+                margin-top:80.1vh;
+            }
+            .contentmainpage p{
+                font-size:50px;
+            }
+            .grid .project {
+                width: 100%;
+                margin: 0px 8px 10px 8px;
+                box-sizing: border-box;
+                position: relative;
+            }
+       
+                #tekst{
+                    display: none;
+                }
+            #uitleg {
+                float: left;
+                font-size:45px;
+                z-index: 99999999999;
+                  
+            }
+            #projecttitle p{
+                font-size:75px;
+                padding-top: 6px;
+                text-align:end;
+            }
+
+            
+            .contentrectangle img{
+                width: 95%;
+                padding-top: 0px;
+                float: left;
+                padding-bottom:0px;
+                margin: auto;
+                margin-bottom: 2vh;
+                margin-left:2.5%;
+                margin-right:2.5%;
+            }
+
+            .project-text {
+                border:0px solid black;
+            }
+
+            .tekst h1{
+                padding: 0px 0px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            #footer{
+                font-size: 12px;
+            }
+            .popup{
+                font-size: 12px;
+            }
+            #profiel {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+
+                
+            .collapsible {
+                  background-color: none;
+                  position: fixed;
+                  color: white;
+                  cursor: pointer;
+                  width: 98%;
+                  border: none;
+                  text-align: right;
+                  outline: none;
+                  font-size: 100px;
+                  font-family: 'manrope';
+                  margin-top: 10vh;
+                z-index: 999999999999;
+            }
+
+                .active, .collapsible:hover {
+                background-color: none;
+                }
+
+                .content {
+                font:'manrope';
+                font-size: 30px;
+                padding: 0 10px;
+                margin-top:0px;
+                max-height: 0px;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+                position: fixed;
+                color: white;
+                background-color: grey;
+                }    
+                
+                
+             footer nav ul li {
+                margin-top: 0px;
+                font-size: 37px;
+                display: inline-block;
+                padding: 0px;
+                padding-left: 5%;
+                padding-right:5%;
+                text-align: center;
+            }
+            footer nav ul li a:hover{
+                color:blue;
+            }
+            footer div p {
+                font-size: 20px;
+                color: white;
+                z-index: 99999999999;
+                position: absolute;
+            }
+                
+    .abouttext p{
+    margin-right: auto;
+    font-size: 32px;
+    margin-top:40px;
+    margin-bottom: 60px;
+    text-align:left;
+}
